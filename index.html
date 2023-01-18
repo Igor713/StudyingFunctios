@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Teste</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <div class="form-wrapper">
+      <h1>Calcule seu IMC</h1>
+      <form action="/" id="form-imc" method="POST">
+        <label for="weight">Informe seu peso</label>
+        <input type="text" id="weight" name="weight">
+
+        <label for="height">Informe sua altura</label>
+        <input type="text" id="height" name="height">
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+
+    <div class="date-wrapper">
+      <h1 id="date"></h1>
+      <p id="hours"></p>
+    </div>
+  </section>
+
+  <script src="./assets/js/imc.js"></script>
+  <script src="./assets/js/date.js"></script>
+</body>
+
+</html>
